@@ -25,7 +25,7 @@ const getCookies = (cookies) =>{
   },1000)
 }
 
-const createCookies1 = (newCookie) =>{
+const createCookies = (newCookie) =>{
   setTimeout(()=>{
     cookies.push(newCookie)
     console.log('hello')
